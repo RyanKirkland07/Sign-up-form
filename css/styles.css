@@ -1,0 +1,8 @@
+@font-face {
+    font-family: norse-font;
+    src: url(../fonts/norse/Norse.otf) format("opentype");
+}
+
+*{
+    font-family: norse-font;
+}
