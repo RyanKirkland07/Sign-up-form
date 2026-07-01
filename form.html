@@ -23,19 +23,33 @@
 
         <form>
             
-            <label for="fname"> First Name: 
-                <input type="text" name="fname" id="fname" placeholder="e.g. John">
-            </label>
+            <fieldset id="name-field">
+                <label for="fname"> *First Name: 
+                    <input type="text" name="fname" id="fname" placeholder="e.g. John" required>
+                </label>
 
             
-            <label for="lname"> Last Name: 
-                <input type="text" name="lname" id="lname" placeholder="e.g. Doe">
-            </label>
+                <label for="lname"> *Last Name: 
+                    <input type="text" name="lname" id="lname" placeholder="e.g. Doe" required>
+                </label>
 
+            </fieldset>
             
-            <label for="email"> Email:
-                <input type="email" name="email" id="email" placeholder="e.g. email@email.com">
-            </label>
+            <fieldset id="email-field">
+                <label for="email"> *Email:
+                    <input type="email" name="email" id="email" placeholder="e.g. email@email.com" required>
+                </label>
+            </fieldset>
+
+            <fieldset id="pass-field">
+                <label for="password"> *Password 
+                    <input type="password" name="password" id="password">
+                </label>
+
+                <label for="password"> *Confirm Password 
+                    <input type="password" name="password-conf" id="password-conf">
+                </label>
+            </fieldset>
         </form>
     </div>
 </body>
